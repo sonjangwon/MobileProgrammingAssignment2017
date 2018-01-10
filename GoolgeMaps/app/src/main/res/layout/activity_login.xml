@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="bottom"
+    android:paddingBottom="80dp"
+    android:background="@drawable/startbackground_6"
+    tools:context="com.example.jaehyukshin.goolgemaps.LoginActivity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"></com.google.android.gms.common.SignInButton>
+
+</LinearLayout>
